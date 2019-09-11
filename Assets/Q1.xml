@@ -1,0 +1,537 @@
+<?xml version="1.0"?>
+<GameData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Questions>
+    <Question>
+      <Info>Can sealed class be in inherited in C#?</Info>
+      <Answers>
+        <Answer>
+          <Info>Yes</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>No</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
+      <Type>Single</Type>
+      <AddScore>20</AddScore>
+    </Question>
+    <Question>
+      <Info>Can structures implement interface?</Info>
+      <Answers>
+        <Answer>
+          <Info>Yes</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>No</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
+      <Type>Single</Type>
+      <AddScore>20</AddScore>
+    </Question>
+    <Question>
+      <Info>What is Object?</Info>
+      <Answers>
+        <Answer>
+          <Info>Instance of a class</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Method of a class</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
+      <Type>Single</Type>
+      <AddScore>20</AddScore>
+    </Question>
+    <Question>
+      <Info>What is delegate?</Info>
+      <Answers>
+        <Answer>
+          <Info>Pointer for interface</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Pointer for method</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
+      <Type>Single</Type>
+      <AddScore>20</AddScore>
+    </Question>
+    <Question>
+      <Info>Can "this" be used within a static method?</Info>
+      <Answers>
+        <Answer>
+          <Info>Yes</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>No</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>8</Timer>
+      <Type>Single</Type>
+      <AddScore>20</AddScore>
+    </Question>
+    <Question>
+      <Info>Which of the following is correct about dynamic Type in C#?</Info>
+      <Answers>
+        <Answer>
+          <Info>You can store any type of value in the dynamic data type variable.</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Type checking for these types of variables takes place at run-time.</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Both of the above.</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>None of the above.</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>20</Timer>
+      <Type>Single</Type>
+      <AddScore>20</AddScore>
+    </Question>
+    <Question>
+      <Info>Which of the following converts a type (integer or string type) to date-time structures in C#?</Info>
+      <Answers>
+        <Answer>
+          <Info>ToString</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>ToSingle</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>ToChar</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>ToDateTime</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>15</Timer>
+      <Type>Single</Type>
+      <AddScore>20</AddScore>
+    </Question>
+    <Question>
+      <Info>Which of the following operator casts without raising an exception if the cast fails in C#?</Info>
+      <Answers>
+        <Answer>
+          <Info>?:</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>is</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>as</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>*</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
+      <Type>Single</Type>
+      <AddScore>20</AddScore>
+    </Question>
+    <Question>
+      <Info>Which of the following statements is correct about access specifiers in C#?</Info>
+      <Answers>
+        <Answer>
+          <Info>Encapsulation is implemented by using access specifiers.</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>An access specifier defines the scope and visibility of a class member.</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Both of the above.</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>None of the above.</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>20</Timer>
+      <Type>Single</Type>
+      <AddScore>20</AddScore>
+    </Question>
+    <Question>
+      <Info>Find an invalid expression among the following C# Generics examples.</Info>
+      <Answers>
+        <Answer>
+          <Info>class A where T : class, new()</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>class A where T : struct, IComparable</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>class A where T : class, struct</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>class A where T : Stream where U : IDisposable</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>30</Timer>
+      <Type>Single</Type>
+      <AddScore>20</AddScore>
+    </Question>
+    <Question>
+      <Info>new keyword in C# is used to creat new object from the type. Which of the followings is not allowed to use new keyword?</Info>
+      <Answers>
+        <Answer>
+          <Info>Class: var a = new Class1();</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Interface : var a = new IComparable();</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Struct : var a = new Struct1();</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>C# object : var a = new object();</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>20</Timer>
+      <Type>Single</Type>
+      <AddScore>20</AddScore>
+    </Question>
+    <Question>
+      <Info>Find a correct statement about C# exception</Info>
+      <Answers>
+        <Answer>
+          <Info>&gt;C# exception occrs at compile time</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>C# exception occrs at linking time</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>C# exception occrs at JIT compile time</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>C# exception occrs at run time</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>20</Timer>
+      <Type>Single</Type>
+      <AddScore>20</AddScore>
+    </Question>
+    <Question>
+      <Info>Find an invalid Main() method prototype, which is entry point in C#?</Info>
+      <Answers>
+        <Answer>
+          <Info>&gt;public static void Main()</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>public static int Main()</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>public static void Main(string[] s)</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>public static long Main(string[] args)</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>20</Timer>
+      <Type>Single</Type>
+      <AddScore>20</AddScore>
+    </Question>
+    <Question>
+      <Info>In C#, what is similar to C++ function pointer?</Info>
+      <Answers>
+        <Answer>
+          <Info>Event</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Interface</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Delegate</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Method</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>15</Timer>
+      <Type>Single</Type>
+      <AddScore>20</AddScore>
+    </Question>
+    <Question>
+      <Info>Which of the following statements is incorrect about C# delegate?</Info>
+      <Answers>
+        <Answer>
+          <Info>C# delegate supports multicast</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>C# delegate is considered as a technical basis of C# event</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>C# delegate can be used when passing a reference to a method</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>C# delegate can not use +=, -= operators</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>20</Timer>
+      <Type>Single</Type>
+      <AddScore>20</AddScore>
+    </Question>
+    <Question>
+      <Info>In multithread programming, which of the followings is not using Thread Pool?</Info>
+      <Answers>
+        <Answer>
+          <Info>BackgroundWorker class</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Asynchronous delegate</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Thread class</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Task class</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>20</Timer>
+      <Type>Single</Type>
+      <AddScore>20</AddScore>
+    </Question>
+    <Question>
+      <Info>Which Of The Following Can Be Used To Define The Member Of A Class Externally?</Info>
+      <Answers>
+        <Answer>
+          <Info>:</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>::</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>#</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
+      <Type>Single</Type>
+      <AddScore>20</AddScore>
+    </Question>
+    <Question>
+      <Info>The space required for structure variables is allocated on stack.</Info>
+      <Answers>
+        <Answer>
+          <Info>True</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>False</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
+      <Type>Single</Type>
+      <AddScore>20</AddScore>
+    </Question>
+    <Question>
+      <Info>Creating empty structures is allowed in C#.NET.</Info>
+      <Answers>
+        <Answer>
+          <Info>True</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>False</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
+      <Type>Single</Type>
+      <AddScore>20</AddScore>
+    </Question>
+    <Question>
+      <Info>Which one of the following statements is correct?</Info>
+      <Answers>
+        <Answer>
+          <Info>The default value of numeric array elements is zero.</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>The length of an Array is the number of dimensions in the Array.</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>The rank of an Array is the total number of elements it can contain.</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Array elements can be of integer type only.</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>15</Timer>
+      <Type>Single</Type>
+      <AddScore>20</AddScore>
+    </Question>
+    <Question>
+      <Info>Which of the following statements is correct about constructors?</Info>
+      <Answers>
+        <Answer>
+          <Info>If we provide a one-argument constructor then the compiler still provides a zero-argument constructor.</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Static constructors can use optional arguments.</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Overloaded constructors cannot use optional arguments.</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>If we do not provide a constructor, then the compiler provides a zero-argument constructor.</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>15</Timer>
+      <Type>Single</Type>
+      <AddScore>20</AddScore>
+    </Question>
+    <Question>
+      <Info>A derived class can stop virtual inheritance by declaring an override as</Info>
+      <Answers>
+        <Answer>
+          <Info>inherits</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>extends</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>sealed</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>inheritable</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>15</Timer>
+      <Type>Single</Type>
+      <AddScore>20</AddScore>
+    </Question>
+    <Question>
+      <Info>Which of the following statements is correct?</Info>
+      <Answers>
+        <Answer>
+          <Info>When used as a modifier, the new keyword explicitly hides a member inherited from a base class.</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>Operator overloading works in different ways for structures and classes.</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>It is not necessary that all operator overloads are static methods of the class.</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>The cast operator can be overloaded.</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>20</Timer>
+      <Type>Single</Type>
+      <AddScore>20</AddScore>
+    </Question>
+    <Question>
+      <Info>A property can be declared inside a class, struct, Interface.</Info>
+      <Answers>
+        <Answer>
+          <Info>True</Info>
+          <IsCorrect>true</IsCorrect>
+        </Answer>
+        <Answer>
+          <Info>False</Info>
+          <IsCorrect>false</IsCorrect>
+        </Answer>
+      </Answers>
+      <UseTimer>true</UseTimer>
+      <Timer>10</Timer>
+      <Type>Single</Type>
+      <AddScore>20</AddScore>
+    </Question>
+  </Questions>
+</GameData>
