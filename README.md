@@ -11,5 +11,5 @@
 ## Different difficulty in questions.
 
 ![](Quiz04.PNG)
-
-![](QuizUI.PNG)
+## Final score and highscore showing from the database. 
+![](QuizFinalScore.PNG)
